@@ -1,0 +1,42 @@
+/* ===== EXTRA: PASATIEMPOS Y TEXTAREA ===== */
+.pasatiempos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.categoria {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.categoria h3 {
+    margin-top: 0;
+    color: #333333;
+    font-size: 16px;
+}
+
+.categoria label {
+    display: block;
+    font-weight: normal;
+    margin: 6px 0;
+}
+
+.categoria input[type="checkbox"] {
+    width: auto;
+    margin-right: 8px;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    resize: vertical;
+}
